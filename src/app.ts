@@ -1,6 +1,6 @@
 import { envs } from './config/plugins/envs.plugin';
 import { Server } from './presentation/server';
-import 'doten/config'
+
 
 
 (async() => {
@@ -9,6 +9,6 @@ import 'doten/config'
 
 
 function main() {
-    // Server.start();
-    console.log( envs )
+    Server.start();
+    // console.log( envs )
 }
